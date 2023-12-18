@@ -19,10 +19,10 @@ deploymentNamespace : native-ingress-controller-system
 replicaCount: 1
 
 image:
-  repository: ghcr.io/oracle/oci-native-ingress-controller
+  repository: lilahtovmoon/oci-native-ingress-controller
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.3.0"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
